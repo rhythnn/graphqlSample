@@ -8,5 +8,8 @@ before_script:
   - bundle exec rails db:migrate
 script:
   - bundle exec rspec spec
+cache:
+  directories:
+    - vendor/bundle
 notifications:
   email: false
