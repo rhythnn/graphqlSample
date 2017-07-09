@@ -18,3 +18,4 @@ tmp/*
 .byebug_history
 .DS_Store
 vendor/bundle
+.rspec
