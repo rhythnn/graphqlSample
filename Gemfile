@@ -30,8 +30,6 @@ gem 'devise'
 gem 'graphql'
 gem 'graphiql-rails'
 
-gem 'has_secure_token'
-
 group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
